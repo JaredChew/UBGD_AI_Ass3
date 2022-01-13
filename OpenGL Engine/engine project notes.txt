@@ -1,0 +1,15 @@
+scene manager (scene load envirotment/ scene graph) - like unity's hierchy 
+  -bsp for collision - scene graph
+
+ogre3d (old)
+urho3d (clean design)
+cocos2dx (for 2d)
+
+
+
+*****
+
+scripting engine - angle
+
+
+get a good direction first then fuly start

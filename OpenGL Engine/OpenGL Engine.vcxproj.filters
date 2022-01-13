@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Math">
+      <UniqueIdentifier>{77ca3453-493f-4df6-9817-f4f812772234}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities">
+      <UniqueIdentifier>{1e2aa3ae-0b09-4f87-b16c-f62717666e20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\!!! TO IMPLEMENT">
+      <UniqueIdentifier>{be61036b-3286-4cd7-a600-c65a710208fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data Types">
+      <UniqueIdentifier>{3e4b6b08-dc10-4d0e-ab37-defb603d38f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sessions">
+      <UniqueIdentifier>{4fc01973-2f3e-492e-8d1a-5d4f003bda1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Math">
+      <UniqueIdentifier>{90e062a0-0b2b-401e-88c5-752cfbc5f271}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utilities">
+      <UniqueIdentifier>{9f9b4c7c-1ac1-479f-b57b-16a01500b679}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\!!! TO IMPLEMENT">
+      <UniqueIdentifier>{7a1cfe2f-484a-44e1-a773-fab40bbb20c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Specifications">
+      <UniqueIdentifier>{3a4fafec-7af2-438f-a6da-4493ab8e1731}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Sessions">
+      <UniqueIdentifier>{eca2299f-4d9c-40fd-9dbe-24c9f43ddd4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Data Types">
+      <UniqueIdentifier>{0905c5aa-6408-4a70-9a6c-52f0b25a5346}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Data Structures">
+      <UniqueIdentifier>{9dc8bdef-9dbb-408f-89a9-6cb327d7c024}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Modules">
+      <UniqueIdentifier>{f12c548e-1942-4dc6-8bbe-662c76ec575b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Modules">
+      <UniqueIdentifier>{4a2c34d5-6859-40c5-a35b-6b6726ca89d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External">
+      <UniqueIdentifier>{561bcbfe-861b-4bac-b3b0-f7eb431c7d1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Modules\Particle Effects">
+      <UniqueIdentifier>{3585cd40-3ab0-4f71-998a-6ee899852328}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Modules\Particle Effects">
+      <UniqueIdentifier>{359e9ecc-a970-47f3-b9f3-108e95c8ebab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Modules\AI">
+      <UniqueIdentifier>{6edc98b8-a812-42dd-8ceb-522a609428e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Modules\AI">
+      <UniqueIdentifier>{b186c49a-ec29-4624-9ac6-c9ad9ba86a5f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\openGL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Utilities\random.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Math\straightLineEquation.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\font.cpp">
+      <Filter>Source Files\!!! TO IMPLEMENT</Filter>
+    </ClCompile>
+    <ClCompile Include="src\window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\keyboard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mouse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Utilities\crypto.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Session\gameOfLife.cpp">
+      <Filter>Source Files\Sessions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Session\pathFinding.cpp">
+      <Filter>Source Files\Sessions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Utilities\bitOperation.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Utilities\timer.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Session\steeringBehaviour.cpp">
+      <Filter>Source Files\Sessions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\geometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Modules\sprite.cpp">
+      <Filter>Source Files\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Utilities\generalUtil.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Modules\transform.cpp">
+      <Filter>Source Files\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Modules\canvas.cpp">
+      <Filter>Source Files\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Data Types\bitData.cpp">
+      <Filter>Source Files\Data Types</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Modules\entity.cpp">
+      <Filter>Source Files\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\External\glad.c">
+      <Filter>External</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Modules\boundary.cpp">
+      <Filter>Source Files\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\session.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Modules\wave.cpp">
+      <Filter>Source Files\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Modules\lightning.cpp">
+      <Filter>Source Files\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Modules\physics.cpp">
+      <Filter>Source Files\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\audio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Session\particlesEffect.cpp">
+      <Filter>Source Files\Sessions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Modules\Particle Effects\customParticleEffect.cpp">
+      <Filter>Source Files\Modules\Particle Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Modules\Particle Effects\defaultParticleEffect.cpp">
+      <Filter>Source Files\Modules\Particle Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Math\generalMath.cpp">
+      <Filter>Header Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Modules\particleSystem.cpp">
+      <Filter>Source Files\Modules\Particle Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Modules\pathNode.cpp">
+      <Filter>Source Files\Modules\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Modules\pathFinder.cpp">
+      <Filter>Source Files\Modules\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Modules\flockingBehaviour.cpp">
+      <Filter>Source Files\Modules\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Modules\boidEntity.cpp">
+      <Filter>Source Files\Modules\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Modules\particleEntity.cpp">
+      <Filter>Source Files\Modules\Particle Effects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\openGL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utilities\random.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Math\straightLineEquation.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\font.h">
+      <Filter>Header Files\!!! TO IMPLEMENT</Filter>
+    </ClInclude>
+    <ClInclude Include="todo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Data Structure\binaryTree.hpp">
+      <Filter>Header Files\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Data Structure\linkedList.hpp">
+      <Filter>Header Files\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Data Structure\node2D.hpp">
+      <Filter>Header Files\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Data Structure\doubleLinkedList.hpp">
+      <Filter>Header Files\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Data Structure\hashMap.hpp">
+      <Filter>Header Files\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Data Structure\circularQueue.hpp">
+      <Filter>Header Files\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="src\window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mouse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\keyboard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utilities\crypto.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utilities\bitOperation.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Session\gameOfLife.h">
+      <Filter>Header Files\Sessions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Session\pathFinding.h">
+      <Filter>Header Files\Sessions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\defaultSettings.h">
+      <Filter>Header Files\Specifications</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utilities\timer.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Session\steeringBehaviour.h">
+      <Filter>Header Files\Sessions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\geometry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Modules\sprite.h">
+      <Filter>Header Files\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Data Types\bitData.h">
+      <Filter>Header Files\Data Types</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Modules\canvas.h">
+      <Filter>Header Files\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Modules\entity.h">
+      <Filter>Header Files\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Modules\transform.h">
+      <Filter>Header Files\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utilities\generalUtil.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\External\bitmap.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Modules\boundary.h">
+      <Filter>Header Files\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="src\session.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Modules\lightning.h">
+      <Filter>Header Files\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Modules\wave.h">
+      <Filter>Header Files\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Modules\physics.h">
+      <Filter>Header Files\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="src\audio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Session\particlesEffect.h">
+      <Filter>Header Files\Sessions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Modules\Particle Effects\customParticleEffect.h">
+      <Filter>Header Files\Modules\Particle Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Modules\Particle Effects\defaultParticleEffect.h">
+      <Filter>Header Files\Modules\Particle Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Math\generalMath.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Modules\flockingBehaviour.h">
+      <Filter>Header Files\Modules\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Modules\pathFinder.h">
+      <Filter>Header Files\Modules\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Modules\pathNode.h">
+      <Filter>Header Files\Modules\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Modules\particleAffector.h">
+      <Filter>Header Files\Modules\Particle Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Modules\particleSystem.h">
+      <Filter>Header Files\Modules\Particle Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Modules\boidEntity.h">
+      <Filter>Header Files\Modules\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Modules\particleEntity.h">
+      <Filter>Header Files\Modules\Particle Effects</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

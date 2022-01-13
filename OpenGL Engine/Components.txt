@@ -1,0 +1,32 @@
+Refer to: https://www.khronos.org/opengl/wiki/Related_toolkits_and_APIs
+
+GLFW (window and input)
+https://www.glfw.org/
+
+GLEW (OpenGL extensions)
+http://glew.sourceforge.net/
+
+SOIL2 (image loader)
+https://github.com/SpartanJ/SOIL2/
+
+freeimage (image lovrary) *alternative
+http://freeimage.sourceforge.net/license.html
+
+GLM (maths)
+https://glm.g-truc.net/0.9.9/index.html
+
+cglm (maths) *alternative
+https://github.com/recp/cglm
+
+assimp (3D importer)
+http://www.assimp.org/index.php/license
+
+COLLADA (3D importer) *alternative
+https://www.khronos.org/collada/wiki/Main_page
+
+openal soft (audio)
+https://github.com/kcat/openal-soft
+
+fmod(audio) *alternative
+https://www.fmod.com/resources/documentation-api?version=1.10&page=content/generated/common/introduction_web.html
+
